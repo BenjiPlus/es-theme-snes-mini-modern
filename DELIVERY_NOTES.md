@@ -5,7 +5,7 @@
 A complete, modernized EmulationStation theme for RetroPie 4.8 (Raspberry Pi 4) located at:
 
 ```
-/app/es-theme-snes-mini-modern/
+/app/
 ```
 
 ## 🎯 Project Completion
@@ -108,7 +108,7 @@ All objectives from the problem statement have been met:
 ## 📁 Directory Overview
 
 ```
-es-theme-snes-mini-modern/
+./
 ├── theme.xml              # Entry point (formatVersion 4)
 ├── base.xml               # View definitions (15 KB)
 ├── layouts/               # Resolution layouts
@@ -120,7 +120,6 @@ es-theme-snes-mini-modern/
 │   ├── systems/           # System logos (58 systems)
 │   └── backgrounds/       # Background variants
 ├── fonts/                 # TTF fonts (6 files)
-├── sounds/                # Navigation sounds
 ├── systems/               # Per-system configs
 ├── tools/                 # 5 Python/Bash tools
 └── [7 documentation files]
@@ -182,7 +181,7 @@ The original theme files remain at `/app/` for reference:
 - /app/art/
 - etc.
 
-**New modernized theme** is separate at `/app/es-theme-snes-mini-modern/`
+**New modernized theme** is separate at `/app/`
 
 ### Hardware Requirements
 - Raspberry Pi 4 (2GB+ RAM recommended)
@@ -239,9 +238,9 @@ A complete, production-ready theme package has been delivered with:
 - ✅ Performance optimizations
 - ⏳ Ready for hardware validation
 
-**Package Location:** `/app/es-theme-snes-mini-modern/`  
-**Start Here:** `/app/es-theme-snes-mini-modern/README.md`  
-**Quick Start:** `/app/es-theme-snes-mini-modern/QUICK_START.md`
+**Package Location:** `/app/`  
+**Start Here:** `/app/README.md`  
+**Quick Start:** `/app/QUICK_START.md`
 
 ---
 

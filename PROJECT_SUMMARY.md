@@ -28,7 +28,7 @@
 ## 📁 Directory Structure
 
 ```
-es-theme-snes-mini-modern/
+./
 ├── theme.xml              # Main entry (formatVersion 4)
 ├── base.xml               # View definitions (system, basic, detailed, video, grid)
 ├── layouts/               # Resolution-specific layouts
@@ -45,7 +45,6 @@ es-theme-snes-mini-modern/
 │   ├── systems/           # System logos (58 systems)
 │   └── backgrounds/       # Background variants
 ├── fonts/                 # TTF fonts (6 files)
-├── sounds/                # Navigation sounds (2 files)
 ├── systems/               # Per-system overrides
 │   └── snes.xml           # Example configuration
 ├── tools/                 # Automation utilities
@@ -268,14 +267,14 @@ make restart        # Restart ES
 
 ### Method 2: Manual
 ```bash
-sudo rsync -av es-theme-snes-mini-modern/ /etc/emulationstation/themes/snes-mini-modern/
+sudo rsync -av ./ /etc/emulationstation/themes/snes-mini-modern/
 sudo systemctl restart emulationstation
 ```
 
 ### Method 3: User-specific
 ```bash
 mkdir -p ~/.emulationstation/themes
-rsync -av es-theme-snes-mini-modern/ ~/.emulationstation/themes/snes-mini-modern/
+rsync -av ./ ~/.emulationstation/themes/snes-mini-modern/
 pkill -TERM emulationstation
 ```
 

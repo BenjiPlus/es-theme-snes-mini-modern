@@ -71,7 +71,7 @@ All notable changes to the SNES Mini Modern theme will be documented in this fil
 
 #### File Structure
 ```
-es-theme-snes-mini-modern/
+./
 ├── theme.xml              # Main entry point (formatVersion 4)
 ├── base.xml               # View definitions for all views
 ├── layouts/               # Resolution-specific overrides
@@ -82,7 +82,6 @@ es-theme-snes-mini-modern/
 │   ├── ui/                # UI elements, overlays, borders
 │   └── systems/           # System logos (58 systems)
 ├── fonts/                 # TTF fonts (5 variants)
-├── sounds/                # Navigation sound effects
 ├── tools/                 # Python utilities
 └── screenshots/           # (Reserved for documentation)
 ```
