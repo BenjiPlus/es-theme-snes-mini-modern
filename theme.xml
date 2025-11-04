@@ -1,8 +1,27 @@
+<!--
+theme name:     SNES Mini Modern (Private)
+version:        1.0.0
+author:         Modernized for ES v2.10.2 / RetroPie 4.8
+based on:       Original SNES Mini theme by ruckage
+license:        Private use only - not for distribution
+target:         Raspberry Pi 4 / RetroPie 4.8 / EmulationStation v2.10.2
+-->
+
 <theme>
-
-    <formatVersion>3</formatVersion>
-
-	<include>./config.xml</include>
-	<include>./base.xml</include>
-	
+    <formatVersion>4</formatVersion>
+    
+    <!-- Include base configuration -->
+    <include>./base.xml</include>
+    
+    <!-- Default resolution: 1920x1080 -->
+    <include>./layouts/1920x1080.xml</include>
+    
+    <!-- Aspect ratio specific includes (ES will auto-select based on display) -->
+    <aspectRatio name="16:9">
+        <include>./layouts/1920x1080.xml</include>
+    </aspectRatio>
+    
+    <aspectRatio name="16:10">
+        <include>./layouts/1366x768_scale.xml</include>
+    </aspectRatio>
 </theme>
