@@ -1,0 +1,83 @@
+<!--
+Layout: 1920x1080 (Full HD)
+Base resolution - all other layouts scale from this
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    
+    <view name="system">
+        <carousel name="systemcarousel">
+            <pos>0.05 0.45</pos>
+            <size>0.9 0.35</size>
+            <logoSize>0.18 0.18</logoSize>
+            <maxLogoCount>5</maxLogoCount>
+        </carousel>
+        
+        <text name="systemInfo">
+            <pos>0.5 0.82</pos>
+            <size>0.8 0.08</size>
+            <fontSize>0.04</fontSize>
+        </text>
+    </view>
+    
+    <view name="basic, detailed, video">
+        <textlist name="gamelist">
+            <pos>0.08 0.22</pos>
+            <size>0.35 0.58</size>
+            <fontSize>0.032</fontSize>
+            <lineSpacing>1.45</lineSpacing>
+            <selectorHeight>0.07</selectorHeight>
+        </textlist>
+    </view>
+    
+    <view name="detailed, video">
+        <image name="md_image">
+            <pos>0.66 0.36</pos>
+            <maxSize>0.42 0.38</maxSize>
+        </image>
+        
+        <text name="md_name">
+            <pos>0.46 0.60</pos>
+            <size>0.5 0.05</size>
+            <fontSize>0.040</fontSize>
+        </text>
+        
+        <text name="md_description">
+            <pos>0.46 0.67</pos>
+            <size>0.5 0.18</size>
+            <fontSize>0.024</fontSize>
+        </text>
+    </view>
+    
+    <view name="video">
+        <video name="md_video">
+            <pos>0.66 0.36</pos>
+            <maxSize>0.42 0.38</maxSize>
+            <delay>0.75</delay>
+        </video>
+    </view>
+    
+    <view name="grid">
+        <imagegrid name="gamegrid">
+            <pos>0.05 0.22</pos>
+            <size>0.9 0.60</size>
+            <margin>0.012 0.015</margin>
+            <autoLayout>5 3</autoLayout>
+            <autoLayoutSelectedZoom>1.15</autoLayoutSelectedZoom>
+        </imagegrid>
+        
+        <text name="md_name">
+            <pos>0.05 0.84</pos>
+            <size>0.5 0.05</size>
+            <fontSize>0.038</fontSize>
+        </text>
+        
+        <text name="md_description">
+            <pos>0.55 0.84</pos>
+            <size>0.4 0.09</size>
+            <fontSize>0.022</fontSize>
+        </text>
+    </view>
+    
+</theme>
